@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shorty</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="header header__contenedor">
+    <div class="header__nav">
+      <img src="images/logo.svg" alt="imagen logo">
+
+      <a href="#" class="header__enlace">Features</a>
+      <a href="#" class="header__enlace">Pricing</a>
+      <a href="#" class="header__enlace">Resources</a>
+    </div>
+
+    <div class="header__login">
+      <a href="#" class="header__enlace">Login</a>
+      <a href="#" class="header__enlace header__enlace--btn">Sign Up</a>
+    </div>
+  </header>
+
+  <section class="principal">
+    <div class="principal__contenedor">
+      <div class="info">
+        <h1 class="info__titulo">More than just shorter links</h1>
+
+        <p class="info__texto">Build your brand's recognition and get detailed insights on how your links are performing.</p>
+
+        <a href="#" class="info__btn">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="estadisticas">
+    <article class="link link__contenedor">
+      <form class="formulario" id="formulario">
+        <input class="formualrio__link" id="link" type="text" placeholder="Shorten a link here...">
+        <input class="formulario__submit" id="submit" type="submit" value="Shorten It!">
+      </form>
+    </article>
+
+    <div class="estadisticas__info estadisticas__info--contenedor">
+      
+      <div class="resultado" id="resultado"></div>
+
+      <h2 class="estadisticas__info-titulo">Advanced Statistics</h2>
+      <p class="estadisticas__info-texto">Track how your links are performing across the web with our advanced statistics dashboard</p>
+
+      <div class="dashboard">
+        <div class="card__flex">
+          <div class="card">
+            <div class="card__img">
+              <img class="card__imagen" src="images/icon-brand-recognition.svg" alt="imagen de card">
+            </div>
+            
+            <h3 class="card__titulo">Brand Recognition</h3>
+            <p class="card__texto">Boost your brand recognition with each click. Generic links don't mean a thing. Branded link help instil confidence in your content.</p>
+          </div>
+  
+          <div class="card">
+            <div class="card__img">
+              <img class="card__imagen" src="images/icon-detailed-records.svg" alt="imagen de card">
+            </div>
+
+            <h3 class="card__titulo">Detailed Records</h3>
+            <p class="card__texto">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+          </div>
+  
+          <div class="card">
+            <div class="card__img">
+              <img class="card__imagen" src="images/icon-fully-customizable.svg" alt="imagen de card">
+            </div>
+
+            <h3 class="card__titulo">Fully Customizable</h3>
+            <p class="card__texto">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="boost">
+    <div class="boost__contenedor">
+      <h3 class="boost__titulo">Boost your links today</h3>
+      <a class="boost__btn" href="#">Get Started</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__flex footer__contenedor">
+      <div class="footer__img">
+        <img class="footer__logo" src="images/logo.svg" alt="logo shortly">
+      </div>
+
+      <div class="footer__contenido">
+        <div class="footer__nav">
+          <p class="footer__nav-titulo">Features</p>
+          <a class="footer__nav-enlace" href="#">Link Shortening</a>
+          <a class="footer__nav-enlace" href="#">Branded Links</a>
+          <a class="footer__nav-enlace" href="#">Analytics</a>
+        </div>
+
+        <div class="footer__nav">
+          <p class="footer__nav-titulo">Resources</p>
+          <a class="footer__nav-enlace" href="#">Blog</a>
+          <a class="footer__nav-enlace" href="#">Developes</a>
+          <a class="footer__nav-enlace" href="#">Support</a>
+        </div>
+
+        <div class="footer__nav">
+          <p class="footer__nav-titulo">Company</p>
+          <a class="footer__nav-enlace" href="#">About</a>
+          <a class="footer__nav-enlace" href="#">Our Team</a>
+          <a class="footer__nav-enlace" href="#">Careers</a>
+          <a class="footer__nav-enlace" href="#">Contact</a>
+        </div>
+
+        <div class="footer__social">
+          <img class="footer__social-img" src="images/icon-facebook.svg" alt="imagen fb">
+          <img class="footer__social-img" src="images/icon-twitter.svg" alt="imagen twitter">
+          <img class="footer__social-img" src="images/icon-pinterest.svg" alt="imagen pinterest">
+          <img class="footer__social-img" src="images/icon-instagram.svg" alt="imagen ig">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
